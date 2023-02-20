@@ -50,9 +50,9 @@ export default function Sidebar() {
         />
         <div className='leading-5 hidden xl:inline'>
           <h4 className='font-bold'>Sulaimon Omotosho</h4>
-          <p className='text-gray-500'>@Cake_Zaddy</p>
+          <p className='text-gray-500 '>@Cake_Zaddy</p>
         </div>
-        <DotsHorizontalIcon className='h-5 xl:ml-8 xl:inline' />
+        <DotsHorizontalIcon className='h-5 xl:ml-8 xl:inline hidden xl:inline' />
       </div>
     </div>
   )
