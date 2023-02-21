@@ -12,7 +12,7 @@ import { DotsHorizontalIcon } from '@heroicons/react/outline'
 
 export default function Sidebar() {
   return (
-    <div className='hidden sm:flex flex-col p-2 x:items-start fixed h-full'>
+    <div className='hidden sm:flex flex-col p-2 x:items-start fixed h-full xl:ml-20'>
       {/* Logo */}
       <div className='hoverEffect p-0 hover:bg-transparent xl:px-1'>
         <Image
