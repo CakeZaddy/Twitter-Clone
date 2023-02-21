@@ -18,8 +18,8 @@ export default function Input() {
         </div>
         <div className='flex items-center justify-between pt-2.5'>
           <div className='flex'>
-            <PhotographIcon className='h-8 w-8 hoverEffect p-2 text-sky-500 hover:bg-sky-500' />
-            <EmojiHappyIcon className='h-8 w-8 hoverEffect p-2 text-sky-500 hover:bg-sky-500' />
+            <PhotographIcon className='h-8 w-8 hoverEffect p-2 text-sky-500 hover:bg-sky-100' />
+            <EmojiHappyIcon className='h-8 w-8 hoverEffect p-2 text-sky-500 hover:bg-sky-100' />
           </div>
           <button className='bg-blue-400 text-white px-4 py-1.5 rounded-full font-bold shadow-md hover:brightness-95 disabled:opacity-50 '>
             Tweet
