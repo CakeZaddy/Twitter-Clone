@@ -82,7 +82,7 @@ export default function Input() {
               <div className='relative'>
                 <XIcon
                   onClick={() => setSelectedFile(null)}
-                  className='h-7 text-black absolute cursor-pointer shadow-lg shadow-white rounded-full'
+                  className='border-white m-1 h-7 text-black absolute cursor-pointer border  rounded-full'
                 />
                 <img
                   src={selectedFile}
