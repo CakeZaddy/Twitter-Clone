@@ -25,7 +25,7 @@ export default function Input() {
     const docRef = await addDoc(collection(db, 'posts'), {
       id: session.user.uid,
       text: input,
-      userImg: session.user.image,
+      userImg: session.user.Img,
       timestamp: serverTimestamp(),
       name: session.user.name,
       username: session.user.username,
