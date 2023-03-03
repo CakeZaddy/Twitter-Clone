@@ -1,5 +1,5 @@
-import { modalState, postIdState } from /atom/modalAtom'
-import { db, storage } from '/firebase'
+import { modalState, postIdState } from '../atom/modalAtom'
+import { db, storage } from '../firebase'
 import {
   ChartBarIcon,
   ChatIcon,
