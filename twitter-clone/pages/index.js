@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Sidebar from '@/components/Sidebar'
-import Feed from '@/components/Feed'
-import Widgets from '@/components/Widgets'
-import CommentsModal from '@/components/CommentsModal'
+import Sidebar from '../components/Sidebar'
+import Feed from '../components/Feed'
+import Widgets from '../components/Widgets'
+import CommentsModal from '../components/CommentsModal'
 
 const inter = Inter({ subsets: ['latin'] })
 

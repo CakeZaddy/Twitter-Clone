@@ -1,9 +1,9 @@
 import { useRecoilState } from 'recoil'
-import { modalState } from '/atom/modalAtom'
+import { modalState } from '../atom/modalAtom'
 import Modal from 'react-modal'
 import { EmojiHappyIcon, PhotographIcon, XIcon } from '@heroicons/react/outline'
 import { postIdState } from '@/atom/modalAtom'
-import { db } from '@/firebase'
+import { db } from '../firebase'
 import { useEffect } from 'react'
 import {
   addDoc,

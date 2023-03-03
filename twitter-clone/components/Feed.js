@@ -1,4 +1,4 @@
-import { db } from '@/firebase'
+import { db } from '../firebase'
 import { SparklesIcon } from '@heroicons/react/outline'
 import { collection, onSnapshot, orderBy, query } from 'firebase/firestore'
 import { AnimatePresence, motion } from 'framer-motion'
